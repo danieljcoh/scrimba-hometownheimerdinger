@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+
+#header{
+    /*BACKGROUND IMAGE*/
+    background-image: url("images/ny6.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -280px;
+    height: 50%;
+
+    /*TEXT*/
+    text-align: center;
+}
+
+    #header-title{
+        color: black;
+        text-align: center;
+        background-color: #edede9;
+        width: 11%;
+        margin: 50px;
+    }
+
+    #header-subtext{
+        color: black;
+        background-color: #adb5bd;
+        width: 23%;
+    }
+
+
+
+/*ACTIVITES SECTION*/
+#img-section{
+    height: 35em;
+    background-color: #F1FAEE;
+}
+
+    #img-section h2{
+        text-align: center;
+    }
+
+    .img-section-flex-img{
+        border: 1px red solid;
+        border-radius: 50%;
+        width: 250px;
+        height: 270px;
+
+        margin: 25px;
+    }
+
+
+#business-card {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+    
+.avatar {
+    width: 150px;
+
+}
+    
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #fffae5;
+    color: #2a2e34;
+    border: 1px solid #bc4749;
+    border-bottom: 6px solid #bc4749;
+    box-shadow: 60px -16px #bc4749;   
+
+    }
+    
+    .card:hover{
+        cursor: grab;
+        color: #ac46a1;
+        box-shadow: 12px 12px 2px 1px #ea698b;
+        border-bottom: 9px solid #d55d92;
+        background-color: #47126b; 
+            
+    }
+    
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+
+
+/* RE-USABLE CLASSES */
+.block-around{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 auto 50px auto;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
