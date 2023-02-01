@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Prompt', sans-serif;
+}
 
 /*HEADER SECTION*/
 #header{
@@ -91,6 +94,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: #e3f2fd;
+
+    font-family: 'Prompt', sans-serif;
 
 }
     
