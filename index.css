@@ -42,7 +42,7 @@
 /*ACTIVITES SECTION*/
 #img-section{
     height: 61%;
-    background-color: #F1FAEE;
+    background-color: #c0d8f5;
     
 }
 
@@ -86,10 +86,11 @@
 
 /*BUSINESS CARD SECTION*/
 #business-card {
-    height: 50%;
-    margin: 20px;
+    height: 60%;
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    background-color: #e3f2fd;
 
 }
     
@@ -100,16 +101,16 @@
     
 .card {
     width: 400px;
-    margin: 160px auto;
-    padding: 20px;
+    margin: 60px auto 160px auto;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #fffae5;
+    background: #c0d8f5;
     color: #2a2e34;
-    border: 1px solid #bc4749;
-    border-bottom: 6px solid #bc4749;
+    border: 1px solid #1f487e;
+    border-bottom: 6px solid #1f487e;
 
     }
     
