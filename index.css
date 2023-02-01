@@ -2,13 +2,22 @@
     margin: 0;
 }
 
+
+/*HEADER SECTION*/
 #header{
     /*BACKGROUND IMAGE*/
     background-image: url("images/ny6.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -280px;
+    /* background-position-y: -280px; */
+
+    /*HEIGHT & WIDTH*/
     height: 50%;
+
+      /*DISPLAY*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     /*TEXT*/
     text-align: center;
@@ -32,57 +41,89 @@
 
 /*ACTIVITES SECTION*/
 #img-section{
-    height: 35em;
+    height: 61%;
     background-color: #F1FAEE;
+    
 }
 
     #img-section h2{
         text-align: center;
+        padding: 50px 0;
+    }
+
+    #img-section h4{
+        margin-bottom: 25px;
+    }
+
+    #img-section p{
+        line-height: 28px;
     }
 
     .img-section-flex-img{
-        border: 1px red solid;
         border-radius: 50%;
-        width: 250px;
-        height: 270px;
+
+        box-shadow: 10px 8px 35px 4px rgba(0,0,0,0.38);
+        -webkit-box-shadow: 10px 8px 35px 4px rgba(0,0,0,0.38);
+        -moz-box-shadow: 10px 8px 35px 4px rgba(0,0,0,0.38);
+
+        width: 150px;
+        height: 170px;
 
         margin: 25px;
     }
 
+    .img-section-flex-img:hover{
+        width: 250px;
+        height: 270px;
+    }
 
+    .activities-col{
+        width: 20%;
+        border: 30px;
+        text-align: center;
+    }
+
+
+/*BUSINESS CARD SECTION*/
 #business-card {
+    height: 50%;
     margin: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 
 }
     
 .avatar {
-    width: 150px;
+    width: 180px;
 
 }
     
 .card {
     width: 400px;
-    margin: 0 auto;
+    margin: 160px auto;
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background: #fffae5;
     color: #2a2e34;
     border: 1px solid #bc4749;
     border-bottom: 6px solid #bc4749;
-    box-shadow: 60px -16px #bc4749;   
 
     }
     
     .card:hover{
         cursor: grab;
-        color: #ac46a1;
-        box-shadow: 12px 12px 2px 1px #ea698b;
-        border-bottom: 9px solid #d55d92;
-        background-color: #47126b; 
+
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
             
+    }
+
+    .card h3, h4, p {
+        margin: 0 0 10px 15px;
     }
     
 .border-blue {
